@@ -10,7 +10,7 @@ angular.module('myApp.controllers', [])
     // Connect $scope.parties to live Firebase data
     var partiesRef = new Firebase(FIREBASE_URL + 'parties');
     $scope.parties = $firebase(partiesRef);
-      //pagination feature
+      //pagination
      // $scope.curPage = 0;
      // $scope.pageSize =5;
 
